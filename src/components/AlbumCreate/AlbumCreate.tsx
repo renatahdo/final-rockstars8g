@@ -37,7 +37,7 @@ export const AlbumCreate: FC = () => {
                 }],
             }
             
-            await fetch("http://localhost:3001/album", {
+            await fetch("https://rockstars8g-backend.herokuapp.com/album", {
                 method: "POST",
                 headers: { "Content-Type": "application/json", },
                 body: JSON.stringify(newAlbumData)
@@ -69,7 +69,7 @@ export const AlbumCreate: FC = () => {
     console.log(newAlbum);
     useEffect(() => {
         const getArtistsAndAlbums = async () => {
-            const responseArtists = await fetch(`http://localhost:3001/artist`);
+            const responseArtists = await fetch(`https://rockstars8g-backend.herokuapp.com/artist`);
             const artistsInfo: IArtist[] = await responseArtists.json();
             setArtists(artistsInfo)
         }

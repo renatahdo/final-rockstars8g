@@ -11,7 +11,7 @@ export const ExploreAlbums: FC = () => {
 
     useEffect(() => {
         const getAlbums = async () => {
-            const response = await fetch(`http://localhost:3001/album`);
+            const response = await fetch(`https://rockstars8g-backend.herokuapp.com/album`);
             const albumsInfo: IAlbum[] = await response.json();
             setAlbums(albumsInfo)
         }

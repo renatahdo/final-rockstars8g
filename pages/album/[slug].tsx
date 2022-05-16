@@ -17,12 +17,12 @@ const AlbumPage: FC = () => {
 
     useEffect(() => {
         const getAlbumAndArtist = async () => {
-            const responseAlbum = await fetch(`http://localhost:3001/album/${slug}`);
+            const responseAlbum = await fetch(`https://rockstars8g-backend.herokuapp.com/album/${slug}`);
             const albumInfo: IAlbum = await responseAlbum.json();
             setAlbum(albumInfo);
             setSongs(albumInfo.songs);
 
-            const responseArtist = await fetch(`http://localhost:3001/artist/${albumInfo.artists[0]._id}`);
+            const responseArtist = await fetch(`https://rockstars8g-backend.herokuapp.com/artist/${albumInfo.artists[0]._id}`);
             const artistInfo: IArtist = await responseArtist.json();
             setArtist(artistInfo);
         };

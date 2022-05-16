@@ -24,7 +24,7 @@ export const Login: FC<LoginProps> = ({ mode }) => {
                 type: "customer",
             }
 
-            const response = await fetch("http://localhost:3001/user", {
+            const response = await fetch("https://rockstars8g-backend.herokuapp.com/user", {
                 method: "POST",
                 headers: { "Content-Type": "application/json", },
                 body: JSON.stringify(newUser)
@@ -44,7 +44,7 @@ export const Login: FC<LoginProps> = ({ mode }) => {
                 password: sha512(data.password),
             }
 
-            await fetch("http://localhost:3001/login", {
+            await fetch("https://rockstars8g-backend.herokuapp.com/login", {
                 method: "POST",
                 headers: { "Content-Type": "application/json", },
                 body: JSON.stringify(loginUser)

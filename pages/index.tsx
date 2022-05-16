@@ -15,7 +15,7 @@ const Home: NextPage = () => {
     const getArtist = async () => {
       const ids = ["627b35d06c3d09b9e456712a", "627b35f76c3d09b9e456712c", "627b13796c3d09b9e45670da"]
       const randomNum = await Math.round(Math.random() * (2 - 0) + 0);
-      const response = await fetch(`http://localhost:3001/artist/${ids[randomNum]}`);
+      const response = await fetch(`https://rockstars8g-backend.herokuapp.com/artist/${ids[randomNum]}`);
       const artistInfo: IArtist = await response.json();
       setArtist(artistInfo)
     }
