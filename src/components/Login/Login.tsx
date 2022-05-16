@@ -52,7 +52,7 @@ export const Login: FC<LoginProps> = ({ mode }) => {
             .then((res)=> res.json())
             .then((data) => setUser(data));
 
-            if(user?.token !== "") {
+            if(user !== "") {
                 router.push('/explore')
             }
         } catch (error) {
