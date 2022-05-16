@@ -1,0 +1,42 @@
+<svg width="5000" height="1661" viewBox="0 0 5000 1661" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_804_47)">
+<rect width="5000" height="1661" fill="white"/>
+<g filter="url(#filter0_f_804_47)">
+<circle cx="4289" cy="371" r="225" fill="#CFE2D7"/>
+</g>
+<g filter="url(#filter1_f_804_47)">
+<circle cx="1157" cy="1169" r="100" fill="#CFE2D7"/>
+</g>
+<g filter="url(#filter2_f_804_47)">
+<circle cx="4605" cy="831" r="150" fill="#EBBF78"/>
+</g>
+<g filter="url(#filter3_f_804_47)">
+<circle cx="381" cy="511" r="381" fill="#BAE1D6"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_804_47" x="3914" y="-4" width="750" height="750" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="75" result="effect1_foregroundBlur_804_47"/>
+</filter>
+<filter id="filter1_f_804_47" x="957" y="969" width="400" height="400" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="50" result="effect1_foregroundBlur_804_47"/>
+</filter>
+<filter id="filter2_f_804_47" x="4265" y="491" width="680" height="680" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="95" result="effect1_foregroundBlur_804_47"/>
+</filter>
+<filter id="filter3_f_804_47" x="-300" y="-170" width="1362" height="1362" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="150" result="effect1_foregroundBlur_804_47"/>
+</filter>
+<clipPath id="clip0_804_47">
+<rect width="5000" height="1661" fill="white"/>
+</clipPath>
+</defs>
+</svg>

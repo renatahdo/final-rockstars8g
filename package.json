@@ -1,0 +1,49 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.6.2",
+    "@mui/material": "^5.7.0",
+    "@mui/styled-engine-sc": "^5.7.0",
+    "@mui/x-data-grid": "^5.11.0",
+    "@reduxjs/toolkit": "^1.8.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/react-redux": "^7.1.24",
+    "@types/redux-persist": "^4.3.1",
+    "@types/yup": "^0.29.13",
+    "formik": "^2.2.9",
+    "js-sha512": "^0.8.0",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-hook-form": "^7.30.0",
+    "react-redux": "^8.0.1",
+    "react-scripts": "5.0.1",
+    "styled-components": "^5.3.5",
+    "typeface-dm-serif-display": "^1.1.13",
+    "typeface-league-script": "^1.1.13",
+    "typeface-poppins": "^1.1.13",
+    "web-vitals": "^2.1.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.31",
+    "@types/react": "18.0.9",
+    "@types/react-dom": "18.0.3",
+    "eslint": "8.15.0",
+    "eslint-config-next": "12.1.6",
+    "typescript": "4.6.4"
+  }
+}
